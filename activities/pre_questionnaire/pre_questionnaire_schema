@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/visibility-test/master/activities/pre_questionnaire/pre_questionnaire_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "pre_questionnaire_schema",
+    "skos:prefLabel": "Pre-Questionnaire",
+    "skos:altLabel": "pre_questionnaire_schema",
+    "schema:description": "Pre-assessment questions",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "prequestion1",
+            "isAbout": "prequestion1"
+        },
+        {
+            "variableName": "prequestion1a",
+            "isAbout": "prequestion1a"
+        }
+    ],
+    "ui": {
+        "order": [
+            "prequestion1",
+            "prequestion1a"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "prequestion1": true,
+            "prequestion1a": "prequestion1 == 1"
+        }
+    }
+}
