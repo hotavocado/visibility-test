@@ -1,3 +1,4 @@
-Variable / Field Name,Section Header,Form Name,Form Display Name,Form Note,Field Type,multipleChoice,Allow,headerImage,headerImageSize,Field Label,"Choices, Calculations, OR Slider Labels",minVal,maxVal,Branching Logic (Show field only if...),schedule
-prequestion1,,pre_questionnaire,Pre-Questionnaire,Pre-assessment questions,radio,,autoAdvance,new/allSocialMedia.png,150x150,Do you have a social media account?,"1, Yes | 0, No",,,,pre_questionnaire
-prequestion1a,,pre_questionnaire,Pre-Questionnaire,Pre-assessment questions,radio,1,,,,What social media accounts do you use?,"1, Twitter, E040 | 2, Instagram, E043 | 3, Facebook, E042 | 4, Snapchat, new/snapIcon | 5, Tik-tok , new/tiktok |  6, other, 2754",,,[prequestion1] = 1,pre_questionnaire
+Variable / Field Name,Section Header,Form Name,Form Display Name,Form Note,Field Type,multipleChoice,Allow,headerImage,headerImageSize,Field Label,"Choices, Calculations, OR Slider Labels",minVal,maxVal,Branching Logic (Show field only if...)
+test1,,test,test,testing visibility,radio,,autoAdvance,,,Do you use social media? ,"1, Yes | 0, No",,,
+test2,,test,test,testing visibility,radio,1,,,,What social media accounts do you use? (a follow up screen should show up if Twitter was in your selection),"1, Twitter | 2, Instagram | 3, Facebook | 4, Snapchat | 5, Tik-tok |  6, other",,,[test1] = 1
+dummy,,test,test,testing visibility,markdown-message,,,,,You use Twitter,,,,[test2].includes(1)

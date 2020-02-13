@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/visibility-test/master/activities/test/test_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "test_schema",
+    "skos:prefLabel": "test",
+    "skos:altLabel": "test_schema",
+    "schema:description": "testing visibility",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "test1",
+            "isAbout": "test1"
+        },
+        {
+            "variableName": "test2",
+            "isAbout": "test2"
+        },
+        {
+            "variableName": "dummy",
+            "isAbout": "dummy"
+        }
+    ],
+    "ui": {
+        "order": [
+            "test1",
+            "test2",
+            "dummy"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "test1": true,
+            "test2": "test1 == 1",
+            "dummy": "test2.includes(1)"
+        }
+    }
+}

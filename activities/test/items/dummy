@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "dummy",
+    "ui": {
+        "inputType": "markdown-message"
+    },
+    "question": "You use Twitter"
+}

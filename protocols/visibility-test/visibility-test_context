@@ -2,8 +2,8 @@
     "@context": {
         "@version": 1.1,
         "activity_path": "https://raw.githubusercontent.com/hotavocado/visibility-test/master/activities/",
-        "pre_questionnaire": {
-            "@id": "activity_path:pre_questionnaire/pre_questionnaire_schema",
+        "test": {
+            "@id": "activity_path:test/test_schema",
             "@type": "@id"
         }
     }

@@ -13,17 +13,17 @@
     "schema:version": "0.0.1",
     "variableMap": [
         {
-            "variableName": "pre_questionnaire",
-            "isAbout": "pre_questionnaire"
+            "variableName": "test",
+            "isAbout": "test"
         }
     ],
     "ui": {
         "order": [
-            "pre_questionnaire"
+            "test"
         ],
         "shuffle": false,
         "visibility": {
-            "pre_questionnaire": true
+            "test": true
         }
     }
 }

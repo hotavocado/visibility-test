@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "test": "https://raw.githubusercontent.com/hotavocado/visibility-test/master/activities/test/items/",
+        "test1": {
+            "@id": "test:test1",
+            "@type": "@id"
+        },
+        "test2": {
+            "@id": "test:test2",
+            "@type": "@id"
+        },
+        "dummy": {
+            "@id": "test:dummy",
+            "@type": "@id"
+        }
+    }
+}
