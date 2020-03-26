@@ -2,6 +2,14 @@
     "@context": {
         "@version": 1.1,
         "test": "https://raw.githubusercontent.com/hotavocado/visibility-test/master/activities/test/items/",
+        "slidertest": {
+            "@id": "test:slidertest",
+            "@type": "@id"
+        },
+        "greater3": {
+            "@id": "test:greater3",
+            "@type": "@id"
+        },
         "test1": {
             "@id": "test:test1",
             "@type": "@id"

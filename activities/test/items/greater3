@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "greater3",
+    "ui": {
+        "inputType": "markdown-message"
+    },
+    "question": "You picked a number greater than 3!"
+}
