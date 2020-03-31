@@ -4,7 +4,7 @@
 const protocolName = "visibility-test"
 
 //2. your protocol display name: this will show up in the app and be parsed as a string
-const protocolDisplayName = "Prequestionnaire Visibility Test"
+const protocolDisplayName = "Visibility Test"
 
 //2. create your raw github repo URL
 const userName = 'hotavocado'
@@ -14,7 +14,7 @@ const branchName = 'master'
 let yourRepoURL = `https://raw.githubusercontent.com/${userName}/${repoName}/${branchName}`
 
 //3. add a description to your protocol
-let protocolDescription = "lasted updated 5:32pm 3/26"
+let protocolDescription = "lasted updated 2:43pm 3/31"
 
 //4. where are you hosting your images?
 let imagePath = 'https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH2/master/images/'
