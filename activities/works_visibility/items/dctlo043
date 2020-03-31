@@ -3,9 +3,9 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
-    "skos:altLabel": "dummy",
+    "skos:altLabel": "dctlo043",
     "ui": {
         "inputType": "markdown-message"
     },
-    "question": "You use Twitter"
+    "question": "4) This item should only show up if you picked **Yes** for the previous question."
 }

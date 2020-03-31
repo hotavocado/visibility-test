@@ -1,0 +1,46 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/visibility-test/master/activities/works_visibility/works_visibility_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "works_visibility_schema",
+    "skos:prefLabel": "Works Visibility",
+    "skos:altLabel": "works_visibility_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "newname",
+            "isAbout": "newname"
+        },
+        {
+            "variableName": "dctlo027",
+            "isAbout": "dctlo027"
+        },
+        {
+            "variableName": "dctlo042",
+            "isAbout": "dctlo042"
+        },
+        {
+            "variableName": "dctlo043",
+            "isAbout": "dctlo043"
+        }
+    ],
+    "ui": {
+        "order": [
+            "newname",
+            "dctlo027",
+            "dctlo042",
+            "dctlo043"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "newname": true,
+            "dctlo027": "newname == '1'",
+            "dctlo042": true,
+            "dctlo043": "dctlo042 == '1'"
+        }
+    }
+}

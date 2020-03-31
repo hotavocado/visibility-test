@@ -2,8 +2,12 @@
     "@context": {
         "@version": 1.1,
         "activity_path": "https://raw.githubusercontent.com/hotavocado/visibility-test/master/activities/",
-        "test": {
-            "@id": "activity_path:test/test_schema",
+        "broken_visibility": {
+            "@id": "activity_path:broken_visibility/broken_visibility_schema",
+            "@type": "@id"
+        },
+        "works_visibility": {
+            "@id": "activity_path:works_visibility/works_visibility_schema",
             "@type": "@id"
         }
     }

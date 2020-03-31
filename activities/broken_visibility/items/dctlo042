@@ -3,24 +3,24 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
-    "skos:altLabel": "test1",
+    "skos:altLabel": "dctlo042",
     "ui": {
-        "inputType": "radio",
         "allow": [
             "autoAdvance"
-        ]
+        ],
+        "inputType": "radio"
     },
-    "question": "Do you use social media? ",
+    "question": "3) Show the next question?",
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Yes",
+                "schema:value": 0,
+                "schema:name": "No",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 0,
-                "schema:name": "No",
+                "schema:value": 1,
+                "schema:name": "Yes ",
                 "@type": "schema:option"
             }
         ]

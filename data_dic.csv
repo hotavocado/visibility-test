@@ -1,6 +1,9 @@
-Variable / Field Name,Section Header,Form Name,Form Display Name,Form Note,Field Type,multipleChoice,Allow,headerImage,headerImageSize,Field Label,"Choices, Calculations, OR Slider Labels",minVal,maxVal,Branching Logic (Show field only if...)
-slidertest,,test,test,testing visibility,slider,,,,,"Pick a number, the next screen should trigger only if the number your selected is **greater than 3**","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 ",low,high,
-greater3,,test,test,testing visibility,markdown-message,,,,,You picked a number greater than 3!,,,,[slidertest] > 3
-test1,,test,test,testing visibility,radio,,autoAdvance,,,Do you use social media? ,"1, Yes | 0, No",,,
-test2,,test,test,testing visibility,radio,1,,,,What social media accounts do you use? (a follow up screen should show up if Twitter was in your selection),"1, Twitter | 2, Instagram | 3, Facebook | 4, Snapchat | 5, Tik-tok |  6, other",,,[test1] = 1
-dummy,,test,test,testing visibility,markdown-message,,,,,You use Twitter,,,,[test2].includes(1)
+Variable / Field Name,Form Name,Form Display Name,Section Header,Allow,multipleChoice,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Branching Logic (Show field only if...)
+ctlo0,broken_visibility,Broken Visibility,,autoAdvance,,radio,1) Show the next question?,"0, No | 1, Yes ",
+dctlo027,broken_visibility,Broken Visibility,,,,markdown-message,2) This item should only show up if you picked **Yes** for the previous question.,,[ctlo0] = '1'
+dctlo042,broken_visibility,Broken Visibility,,autoAdvance,,radio,3) Show the next question?,"0, No | 1, Yes ",
+dctlo043,broken_visibility,Broken Visibility,,,,markdown-message,4) This item should only show up if you picked **Yes** for the previous question.,,[dctlo042] = '1'
+newname,works_visibility,Works Visibility,,autoAdvance,,radio,1) Show the next question?,"0, No | 1, Yes ",
+dctlo027,works_visibility,Works Visibility,,,,markdown-message,2) This item should only show up if you picked **Yes** for the previous question.,,[newname] = '1'
+dctlo042,works_visibility,Works Visibility,,autoAdvance,,radio,3) Show the next question?,"0, No | 1, Yes ",
+dctlo043,works_visibility,Works Visibility,,,,markdown-message,4) This item should only show up if you picked **Yes** for the previous question.,,[dctlo042] = '1'

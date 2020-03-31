@@ -13,17 +13,23 @@
     "schema:version": "0.0.1",
     "variableMap": [
         {
-            "variableName": "test",
-            "isAbout": "test"
+            "variableName": "broken_visibility",
+            "isAbout": "broken_visibility"
+        },
+        {
+            "variableName": "works_visibility",
+            "isAbout": "works_visibility"
         }
     ],
     "ui": {
         "order": [
-            "test"
+            "broken_visibility",
+            "works_visibility"
         ],
         "shuffle": false,
         "visibility": {
-            "test": true
+            "broken_visibility": true,
+            "works_visibility": true
         }
     }
 }

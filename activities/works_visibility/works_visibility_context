@@ -1,0 +1,22 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "works_visibility": "https://raw.githubusercontent.com/hotavocado/visibility-test/master/activities/works_visibility/items/",
+        "newname": {
+            "@id": "works_visibility:newname",
+            "@type": "@id"
+        },
+        "dctlo027": {
+            "@id": "works_visibility:dctlo027",
+            "@type": "@id"
+        },
+        "dctlo042": {
+            "@id": "works_visibility:dctlo042",
+            "@type": "@id"
+        },
+        "dctlo043": {
+            "@id": "works_visibility:dctlo043",
+            "@type": "@id"
+        }
+    }
+}
