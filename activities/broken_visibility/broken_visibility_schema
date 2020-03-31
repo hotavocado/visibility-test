@@ -38,9 +38,9 @@
         "shuffle": false,
         "visibility": {
             "ctlo0": true,
-            "dctlo027": "ctlo0 == '1'",
+            "dctlo027": "ctlo0 == 1",
             "dctlo042": true,
-            "dctlo043": "dctlo042 == '1'"
+            "dctlo043": "dctlo042 == 1"
         }
     }
 }

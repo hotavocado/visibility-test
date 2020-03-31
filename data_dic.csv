@@ -1,9 +1,9 @@
 Variable / Field Name,Form Name,Form Display Name,Section Header,Allow,multipleChoice,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Branching Logic (Show field only if...)
 ctlo0,broken_visibility,Broken Visibility,,autoAdvance,,radio,1) Show the next question?,"0, No | 1, Yes ",
-dctlo027,broken_visibility,Broken Visibility,,,,markdown-message,2) This item should only show up if you picked **Yes** for the previous question.,,[ctlo0] = '1'
+dctlo027,broken_visibility,Broken Visibility,,,,markdown-message,2) This item should only show up if you picked **Yes** for the previous question.,,[ctlo0] = 1
 dctlo042,broken_visibility,Broken Visibility,,autoAdvance,,radio,3) Show the next question?,"0, No | 1, Yes ",
-dctlo043,broken_visibility,Broken Visibility,,,,markdown-message,4) This item should only show up if you picked **Yes** for the previous question.,,[dctlo042] = '1'
+dctlo043,broken_visibility,Broken Visibility,,,,markdown-message,4) This item should only show up if you picked **Yes** for the previous question.,,[dctlo042] = 1
 newname,works_visibility,Works Visibility,,autoAdvance,,radio,1) Show the next question?,"0, No | 1, Yes ",
-dctlo027,works_visibility,Works Visibility,,,,markdown-message,2) This item should only show up if you picked **Yes** for the previous question.,,[newname] = '1'
+dctlo027,works_visibility,Works Visibility,,,,markdown-message,2) This item should only show up if you picked **Yes** for the previous question.,,[newname] = 1
 dctlo042,works_visibility,Works Visibility,,autoAdvance,,radio,3) Show the next question?,"0, No | 1, Yes ",
-dctlo043,works_visibility,Works Visibility,,,,markdown-message,4) This item should only show up if you picked **Yes** for the previous question.,,[dctlo042] = '1'
+dctlo043,works_visibility,Works Visibility,,,,markdown-message,4) This item should only show up if you picked **Yes** for the previous question.,,[dctlo042] = 1
