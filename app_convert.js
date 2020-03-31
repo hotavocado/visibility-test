@@ -4,7 +4,7 @@
 const protocolName = "visibility-test"
 
 //2. your protocol display name: this will show up in the app and be parsed as a string
-const protocolDisplayName = "Visibility Test v0.4"
+const protocolDisplayName = "Visibility Test v0.5"
 
 //2. create your raw github repo URL
 const userName = 'hotavocado'
@@ -14,7 +14,7 @@ const branchName = 'master'
 let yourRepoURL = `https://raw.githubusercontent.com/${userName}/${repoName}/${branchName}`
 
 //3. add a description to your protocol
-let protocolDescription = "lasted updated 3:03pm 3/31"
+let protocolDescription = "lasted updated 3:07pm 3/31"
 
 //4. where are you hosting your images?
 let imagePath = 'https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH2/master/images/'
@@ -411,6 +411,8 @@ function processRow(form, data){
                     condition = condition.replace(/\ and\ /g, " && ");
                     condition = condition.replace(/\ or\ /g, " || ");
                     re = RegExp(/\[([^\]]*)\]/g);
+                    condition = condition.replace(re, "$1");
+                    re = RegExp(/\'([^\']*)'/g);
                     condition = condition.replace(re, "$1");
                 }
                 visibilityObj[[data['Variable / Field Name']]] = condition;
