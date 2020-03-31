@@ -1,0 +1,15 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "dctlo008",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "So, how old are you?",
+    "schema:description": "AGE",
+    "responseOptions": {
+        "requiredValue": ""
+    }
+}

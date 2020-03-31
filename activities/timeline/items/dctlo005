@@ -1,0 +1,15 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "dctlo005",
+    "preamble": "\n",
+    "ui": {
+        "inputType": "date"
+    },
+    "question": "What is your birthday?",
+    "responseOptions": {
+        "requiredValue": ""
+    }
+}
