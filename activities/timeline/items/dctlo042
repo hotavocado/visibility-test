@@ -4,13 +4,14 @@
     ],
     "@type": "reproschema:Field",
     "skos:altLabel": "dctlo042",
+    "preamble": "Parent about child",
     "ui": {
         "allow": [
             "autoAdvance"
         ],
         "inputType": "radio"
     },
-    "question": "3) Show the next question?",
+    "question": "Does (child's name) have any serious problems?",
     "responseOptions": {
         "choices": [
             {
@@ -20,9 +21,15 @@
             },
             {
                 "schema:value": 1,
-                "schema:name": "Yes ",
+                "schema:name": "Yes",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 9,
+                "schema:name": "Unknown",
                 "@type": "schema:option"
             }
-        ]
+        ],
+        "requiredValue": ""
     }
 }

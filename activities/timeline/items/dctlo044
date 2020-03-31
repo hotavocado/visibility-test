@@ -3,14 +3,14 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
-    "skos:altLabel": "dctlo042",
+    "skos:altLabel": "dctlo044",
     "ui": {
         "allow": [
             "autoAdvance"
         ],
         "inputType": "radio"
     },
-    "question": "3) Show the next question?",
+    "question": "At school?",
     "responseOptions": {
         "choices": [
             {
@@ -20,9 +20,15 @@
             },
             {
                 "schema:value": 1,
-                "schema:name": "Yes ",
+                "schema:name": "Yes",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 9,
+                "schema:name": "Unknown",
                 "@type": "schema:option"
             }
-        ]
+        ],
+        "requiredValue": ""
     }
 }

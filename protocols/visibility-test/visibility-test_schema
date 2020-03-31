@@ -5,31 +5,25 @@
     ],
     "@type": "reproschema:ActivitySet",
     "@id": "visibility-test_schema",
-    "skos:prefLabel": "Visibility Test v0.2",
+    "skos:prefLabel": "Visibility Test v0.3",
     "skos:altLabel": "visibility-test_schema",
-    "schema:description": "lasted updated 2:54pm 3/31",
+    "schema:description": "lasted updated 3:00pm 3/31",
     "schema:about": "https://raw.githubusercontent.com/hotavocado/visibility-test/master/protocols/visibility-test/README.md",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "variableMap": [
         {
-            "variableName": "broken_visibility",
-            "isAbout": "broken_visibility"
-        },
-        {
-            "variableName": "works_visibility",
-            "isAbout": "works_visibility"
+            "variableName": "timeline",
+            "isAbout": "timeline"
         }
     ],
     "ui": {
         "order": [
-            "broken_visibility",
-            "works_visibility"
+            "timeline"
         ],
         "shuffle": false,
         "visibility": {
-            "broken_visibility": true,
-            "works_visibility": true
+            "timeline": true
         }
     }
 }
