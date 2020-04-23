@@ -2,8 +2,8 @@
     "@context": {
         "@version": 1.1,
         "activity_path": "https://raw.githubusercontent.com/hotavocado/visibility-test/master/activities/",
-        "timeline": {
-            "@id": "activity_path:timeline/timeline_schema",
+        "visibility_test": {
+            "@id": "activity_path:visibility_test/visibility_test_schema",
             "@type": "@id"
         }
     }

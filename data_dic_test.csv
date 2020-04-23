@@ -1,0 +1,4 @@
+Variable / Field Name,Form Name,Form Display Name,Section Header,Allow,multipleChoice,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Branching Logic (Show field only if...)
+question1,visibility_test,Test Visibility,,autoAdvance,,radio,Please pick an option below:,"0, No | 1, Yes ",
+question1_no,visibility_test,Test Visibility,,,,markdown-message,This item should only show up if you picked **No** for the previous question.,,[question1] = 0
+question1_yes,visibility_test,Test Visibility,,,,markdown-message,This item should only show up if you picked **Yes** for the previous question.,,[question1] = 1

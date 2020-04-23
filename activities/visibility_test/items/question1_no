@@ -3,12 +3,9 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
-    "skos:altLabel": "ctlo_end",
+    "skos:altLabel": "question1_no",
     "ui": {
         "inputType": "markdown-message"
     },
-    "question": "_INTERVIEWER: END of  **Timeline** section._",
-    "responseOptions": {
-        "requiredValue": ""
-    }
+    "question": "This item should only show up if you picked **No** for the previous question."
 }

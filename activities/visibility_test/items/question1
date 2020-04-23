@@ -3,14 +3,14 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
-    "skos:altLabel": "dctlo062",
+    "skos:altLabel": "question1",
     "ui": {
         "allow": [
             "autoAdvance"
         ],
         "inputType": "radio"
     },
-    "question": "What about problems with the way you act, things you do, or your behavior?",
+    "question": "Please pick an option below:",
     "responseOptions": {
         "choices": [
             {
@@ -20,15 +20,9 @@
             },
             {
                 "schema:value": 1,
-                "schema:name": "Yes",
-                "@type": "schema:option"
-            },
-            {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "schema:name": "Yes ",
                 "@type": "schema:option"
             }
-        ],
-        "requiredValue": ""
+        ]
     }
 }

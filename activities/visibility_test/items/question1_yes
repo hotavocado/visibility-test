@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "question1_yes",
+    "ui": {
+        "inputType": "markdown-message"
+    },
+    "question": "This item should only show up if you picked **Yes** for the previous question."
+}

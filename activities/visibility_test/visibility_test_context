@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "visibility_test": "https://raw.githubusercontent.com/hotavocado/visibility-test/master/activities/visibility_test/items/",
+        "question1": {
+            "@id": "visibility_test:question1",
+            "@type": "@id"
+        },
+        "question1_no": {
+            "@id": "visibility_test:question1_no",
+            "@type": "@id"
+        },
+        "question1_yes": {
+            "@id": "visibility_test:question1_yes",
+            "@type": "@id"
+        }
+    }
+}
